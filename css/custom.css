@@ -1,0 +1,20 @@
+body {
+	background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #ef9a9a, #ef5350); 
+}
+
+#principal {
+	display: none;
+}
+
+tr {
+	height: 100px;
+}
+
+td {
+	width: 100px;
+}
+
+.negrita {
+	font-weight: bold;
+}

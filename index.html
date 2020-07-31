@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Casillas con dolartoday</title>
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/materialize.css">
+		<link rel="stylesheet" href="css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div id="spinner" class="container">
+			<div class="row">
+				<div class="col s12 m6 offset-m3">
+					<div class="card red center-align">
+						<div class="card-content">
+							<div class="card-title">
+								<img class="z-depth-3" src="img/spinner.gif">
+							</div>
+							<div class="car-action">
+								<a id="showPage" href="#" class="white-text waves-effect waves-light btn-small red accent-4">Omitir...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="principal" class="container">
+
+			<div class="row">
+				<div class="col s12 m10 offset-m1">
+					<div class="card red">
+						<div class="card-content">
+							<div class="card-title">Valor del Dolar en promedio: 
+								<span id="dolar" class="negrita">Cargando...</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<div class="col s12">
+					<div class="card red">
+						<div class="card-content">
+							<span class="card-title center-align">¡Descubre el patrón secreto!</span>
+							<table class="centered">
+								<tr>
+									<td id="A" class="negrita">A</td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+								</tr>
+								<tr>
+									<td id="B" class="negrita">B</td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+								</tr>
+								<tr>
+									<td id="C" class="negrita">C</td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+								</tr>
+								<tr>
+									<td id="D" class="negrita">D</td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+								</tr>
+								<tr>
+									<td id="E" class="negrita">E</td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+									<td class="z-depth-1"></td>
+								</tr>
+								<tr>
+									<td class="negrita">\</td>
+									<td class="negrita">1</td>
+									<td class="negrita">2</td>
+									<td class="negrita">3</td>
+									<td class="negrita">4</td>
+									<td class="negrita">5</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12">
+					<div class="card red">
+						<div class="card-content">
+							<span class="card-title center-align">Ingresa Coordenadas, ¡Tambien puedes dar click en una!</span>
+							<div class="car-action">
+								<form class="form col s12">
+									<div class="row hoverable">
+										<div class="input-field col s6">
+											<input id="coordY" class="validate" type="text">
+											<label for="coordY">Letras</label>
+										</div>
+										<div class="input-field col s6">
+											<input id="coordX" class="validate" type="text">
+											<label for="coordX">Números</label>
+										</div>
+									</div>
+									<div class="row">
+										<button id="btnEnviar" class="col s12 m6 offset-m3 l6 offset-l3 btn-small red accent-4">Probar Coordenada</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div> <!-- Container -->
+
+		<script src="js/tabla.js"></script>
+		<script src="js/dolar.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/materialize.min.js"></script>
+	</body>
+</html>
